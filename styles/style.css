@@ -111,16 +111,65 @@
 
 
 /* main =============================================================================*/
-
-/* .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
 /* /main =============================================================================*/
 
 /* description ======================================================================*/
+
+.description {
+  display: flex;
+  justify-content: center;
+  /* выравниваем дочерний блок по центру горизонтали */
+  margin-bottom: 100px;
+  /* выше указан отступ вниз от блока description */
+}
+
+/* блок с контентом */
+.two-columns {
+  width: 80%;
+  min-width: 784px;
+  /* выше заданы размеры блока */
+  display: flex;
+  justify-content: space-between;
+  /* выше мы разместили дочернии элементы по краям */
+}
+
+/* Заголовок */
+.two-columns__brief {
+  margin: 0;
+  /* сбросили отспупы */
+  width: 175px;
+  /* размер элемента */
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2f80ed;
+}
+
+/* блок с параграфами */
+.two-columns__main-text {
+  width: 80%;
+  /* размеры блока */
+}
+
+/* параграфы */
+.two-columns__paragraph {
+  margin: 0;
+  /* убираем отспупы по умолчанию */
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.two-columns__paragraph:not(:last-child) {
+  margin: 0 0 30px 0;
+  /* выше установили отступ вниз 30px для всех кроме последнего */
+}
+
+/* акцентный текст */
+.two-columns__span-accent {
+  font-weight: 700;
+  /* полужирный текст */
+}
+
 /* /description ======================================================================*/
 
 /* digits ============================================================================*/
