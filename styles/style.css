@@ -29,8 +29,15 @@
   background-color: #f2f2f2;
 }
 
+.logo {
+  width: 183px;
+  height: 32px;
+  /* размер логотипа */
+}
 /* позиционирование logo в header */
 .logo_place_header {
+  background: url(../images/logo_place_header.svg) no-repeat center;
+  /* изоброжение логотипа */
   position: absolute;
   top: 30px;
   left: 64px;
@@ -362,10 +369,104 @@
   margin-right: 0;
   margin-top: 80px;
   /* отступ сверху */
-  color: white;
+  color: #fff;
 }
 /* /kaufman ===========================================================================*/
 
 
 /* footer ============================================================================*/
+.footer {
+  box-sizing: border-box;
+  /* меняем алгоритм расчета размеров и поведения блока */
+  min-height: 350px;
+  /* минимальная высота блока */
+  padding: 60px 0 40px;
+  /* отступы */
+  background: #1f1f1f;
+  /* цвет фона */
+}
+
+/* блок с колонками */
+.footer__columns {
+  width: 90%;
+  /* размер блока */
+  margin: 0 auto;
+  /* центрирование блока */
+  display: flex;
+  /* делаем блок флекс контейнером */
+  justify-content: space-between;
+  /* выравниваем дочернии элементы */
+}
+
+/* модификатор левой колонки */
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  /* базовый размер */
+  min-height: 250px;
+  /* минимальная высота */
+  display: flex;
+  flex-direction: column;
+  /* расположение дочерних элементов в колонку */
+  justify-content: space-between;
+  /* выравнивание дочерних элементов по краяам (вертикали) родителя */
+}
+
+/* логотип */
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+  /* размеры блока */
+  background: url(../images/logo_place_footer.svg) no-repeat center;
+  /* изоброжение логотипа */
+}
+
+/* Копирайт */
+.footer__author {
+  margin: 18px 0;
+  /* отступы */
+  color: #fff;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* заголовок блока */
+.footer__column-heading {
+  margin: 0;
+  /* убираем отступы по умолчанию */
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* список блока */
+.footer__column-links {
+  margin: 20px 0;
+  padding: 0;
+  /* отспупы */
+  list-style: none;
+  /* сбрасываем стили по умолчанию */
+}
+
+/* иконки соцсетей */
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  /* размеры иконок */
+  margin-right: 10px;
+  /* отспуа справа от иконки */
+  vertical-align: middle;
+  /* выравниваем иконки по центру по вертикали с текстом */
+}
+
+/* ссылки */
+.footer__column-link {
+  text-decoration: none;
+  /* сбрасываем стили по умолчанию */
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
 /* /footer ===========================================================================*/
