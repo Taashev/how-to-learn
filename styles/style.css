@@ -250,6 +250,54 @@
 
 
 /* feynman ============================================================================*/
+.feynman {
+  min-height: 890px;
+  /* минимальная высота блока */
+  background: #f2f2f2 url(../images/feynman.png) no-repeat left bottom/867px 637px;
+  /* фоновое изоброжение */
+  position: relative;
+  /* позиционируем дочернии элементы относитель блока feynman */
+}
+
+/* Заголовок */
+.feynman__title {
+  width: 648px;
+  /* размеры блока */
+  margin: 0 auto 70px;
+  /* выравнивание по центру и отспуп вниз */
+  padding-top: 100px;
+  /* отспуп сверху */
+  text-align: center;
+  /* текст по центру */
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 700;
+}
+
+/* прдзаголовок */
+.feynman__subtitle {
+  margin: 0;
+  /* убираем отступы по умолчанию */
+  text-align: center;
+  /* текст по центру */
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+/* ссылка */
+.feynman__link {
+  text-decoration: none;
+  /* убираем стили по умолчанию */
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  /* позиционирование справа по центру */
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: 400;
+}
 /* /feynman ===========================================================================*/
 
 
