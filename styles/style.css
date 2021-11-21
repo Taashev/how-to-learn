@@ -71,10 +71,6 @@
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  background-image: url(../images/header-image.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   position: absolute;
   bottom: 0;
   right: 0;
