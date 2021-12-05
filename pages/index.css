@@ -6,6 +6,10 @@
 @import url(../blocks/page/page.css);
 
 
+/* rotation ========================================= */
+@import url(../blocks/rotation/rotation.css);
+
+
 /* header =========================================== */
 @import url(../blocks/header/header.css);
 /* __title */
@@ -32,6 +36,34 @@
 @import url(../blocks/content/content.css);
 
 
+/* section-title ==================================== */
+@import url(../blocks/section-title/section-title.css);
+/* section-title_theme_dark */
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+
+
+/* techniques */
+@import url(../blocks/techniques/techniques.css);
+
+
+/* cards */
+@import url(../blocks/cards/cards.css);
+/* __item */
+@import url(../blocks/cards/__item/cards__item.css);
+/* __title */
+@import url(../blocks/cards/__title/cards__title.css);
+/* __image */
+@import url(../blocks/cards/__image/cards__image.css);
+/* __description */
+@import url(../blocks/cards/__description/cards__description.css);
+
+
+/* section-subtitle ================================= */
+@import url(../blocks/section-subtitle/section-subtitle.css);
+/* section-subtitle_theme_dark */
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+
+
 /* description ====================================== */
 @import url(../blocks/description/description.css);
 
@@ -50,18 +82,6 @@
 
 /* digits =========================================== */
 @import url(../blocks/digits/digits.css);
-
-
-/* section-title ==================================== */
-@import url(../blocks/section-title/section-title.css);
-/* section-title_theme_dark */
-@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
-
-
-/* section-subtitle ================================= */
-@import url(../blocks/section-subtitle/section-subtitle.css);
-/* section-subtitle_theme_dark */
-@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 
 /* table ============================================ */
