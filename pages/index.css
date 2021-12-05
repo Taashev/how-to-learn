@@ -66,11 +66,11 @@
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 
-/* techniques */
+/* techniques ======================================= */
 @import url(../blocks/techniques/techniques.css);
 
 
-/* cards */
+/* cards ============================================ */
 @import url(../blocks/cards/cards.css);
 /* __item */
 @import url(../blocks/cards/__item/cards__item.css);
@@ -82,7 +82,7 @@
 @import url(../blocks/cards/__description/cards__description.css);
 
 
-/* video */
+/* video ============================================ */
 @import url(../blocks/video/video.css);
 /* __iframes */
 @import url(../blocks/video/__iframes/video__iframes.css);
@@ -90,11 +90,11 @@
 @import url(../blocks/video/__iframe/video__iframe.css);
 
 
-/* oakley */
+/* oakley =========================================== */
 @import url(../blocks/oakley/oakley.css);
 
 
-/* feynman =========================================== */
+/* feynman ========================================== */
 @import url(../blocks/feynman/feynman.css);
 /* __title */
 @import url(../blocks/feynman/__title/feynman__title.css);
@@ -124,6 +124,28 @@
 @import url(../blocks/table/__text/table__text.css);
 /* __text_theme_dark */
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
+
+
+/* khan =============================================== */
+@import url(../blocks/khan/khan.css);
+/* __container */
+@import url(../blocks/khan/__container/khan__container.css);
+/* __author */
+@import url(../blocks/khan/__author/khan__author.css);
+/* __title */
+@import url(../blocks/khan/__title/khan__title.css);
+/* __quote */
+@import url(../blocks/khan/__quote/khan__quote.css);
+/* __quote-author */
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+/* __quote-author-subline */
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+/* __book-container */
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+/* __book-pic */
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+/* __buy-link */
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
 
 
 /* kaufman ============================================ */
