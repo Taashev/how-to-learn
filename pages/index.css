@@ -2,14 +2,28 @@
 @import url(../vendor/normalize.css);
 
 
+/* rotation (анимация вращения ) ==================== */
+@import url(../blocks/rotation/rotation.css);
+
+
+/* link (дефолтное свойства и состояние ховер для ссылок ) */
+@import url(../blocks/link/link.css);
+
+
 /* page ============================================= */
 @import url(../blocks/page/page.css);
-/* __oakley */
+/* page__header */
+@import url(../blocks/page/__header/page__header.css);
+/* page__description */
+@import url(../blocks/page/__description/page__description.css);
+/* page__techniques */
+@import url(../blocks/page/__techniques/page__techniques.css);
+/* page__oakley */
 @import url(../blocks/page/__oakley/page__oakley.css);
-
-
-/* rotation ========================================= */
-@import url(../blocks/rotation/rotation.css);
+/* page__feynman */
+@import url(../blocks/page/__feynman/page__feynman.css);
+/* page__digits */
+@import url(../blocks/page/__digits/page__digits.css);
 
 
 /* header =========================================== */
@@ -152,6 +166,14 @@
 @import url(../blocks/kaufman/kaufman.css);
 /* __triangle */
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+
+
+/* resources */
+@import url(../blocks/resources/resources.css);
+/* __resources__logo-zone */
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+/* __logo */
+@import url(../blocks/resources/__logo/resources__logo.css);
 
 
 /* footer ============================================== */
