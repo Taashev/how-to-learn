@@ -1,9 +1,16 @@
 .header__title {
-  width: 730px;
-  margin: 0 0 0 64px;
+  margin: 20px 0;
+  max-width: 730px;
   font-size: 102px;
-  line-height: 96px;
+  line-height: .95;
   font-weight: 700;
   position: relative;
   z-index: 2;
+}
+
+@media (max-width: 1279px) {
+  .header__title {
+    max-width: 650px;
+    font-size: 82px;
+  }
 }

@@ -14,16 +14,6 @@
 @import url(../blocks/page/page.css);
 /* page__header */
 @import url(../blocks/page/__header/page__header.css);
-/* page__description */
-@import url(../blocks/page/__description/page__description.css);
-/* page__techniques */
-@import url(../blocks/page/__techniques/page__techniques.css);
-/* page__oakley */
-@import url(../blocks/page/__oakley/page__oakley.css);
-/* page__feynman */
-@import url(../blocks/page/__feynman/page__feynman.css);
-/* page__digits */
-@import url(../blocks/page/__digits/page__digits.css);
 
 
 /* header =========================================== */
@@ -50,6 +40,10 @@
 
 /* content ========================================== */
 @import url(../blocks/content/content.css);
+/* __section */
+@import url(../blocks/content/__section/content__section.css);
+/* _element_oakley */
+@import url(../blocks/content/__section/_element_oakley/content__section_element_oakley.css);
 
 
 /* section-title ==================================== */
