@@ -4,6 +4,21 @@
   background-color:#2f80ed;
   position: absolute;
   right: 0;
-  top: 64px;
+  top: 25%;
   z-index: 0;
+}
+
+@media (max-width: 1279px) {
+  .header__square-pic {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header__square-pic {
+    width: 400px;
+    height: 400px;
+    margin-right: -150px;
+  }
 }

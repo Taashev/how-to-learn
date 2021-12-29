@@ -8,3 +8,18 @@
   right: 0;
   z-index: 1;
 }
+
+@media (max-width: 1279px) {
+  .header__main-illustration {
+    width: 650px;
+    height: 550px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header__main-illustration {
+    width: 550px;
+    height: 450px;
+    margin-right: -170px;
+  }
+}
