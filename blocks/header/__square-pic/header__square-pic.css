@@ -10,8 +10,8 @@
 
 @media (max-width: 1279px) {
   .header__square-pic {
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
   }
 }
 
@@ -19,6 +19,21 @@
   .header__square-pic {
     width: 400px;
     height: 400px;
-    margin-right: -150px;
+    right: -100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__square-pic {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 424px) {
+  .header__square-pic {
+    width: 250px;
+    height: 250px;
+    top: 35%;
   }
 }

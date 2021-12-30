@@ -5,4 +5,8 @@
   margin: 0 auto;
   /* Основные настроки страницы */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  /* Оптимизация шрифтов */
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
