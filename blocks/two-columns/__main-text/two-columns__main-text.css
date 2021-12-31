@@ -1,3 +1,9 @@
 .two-columns__main-text {
   width: 80%;
 }
+
+@media (max-width: 767px) {
+  .two-columns__main-text {
+    width: 100%;
+  }
+}

@@ -10,7 +10,6 @@
 
 @media (max-width: 767px) {
   .header__subtitle {
-    max-width: 265px;
-    font-size: 16px;
+    max-width: 300px;
   }
 }

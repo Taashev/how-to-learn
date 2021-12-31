@@ -3,4 +3,13 @@
   width: 80%;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .two-columns {
+    width: 90%;
+    flex-direction: column;
+    align-items: start;
+  }
 }
