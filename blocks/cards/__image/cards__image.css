@@ -4,3 +4,9 @@
   margin: 0 40px 43px;
   border-radius: 50%;
 }
+
+@media (max-width: 424px) {
+  .cards__image {
+    margin-bottom: 30px;
+  }
+}

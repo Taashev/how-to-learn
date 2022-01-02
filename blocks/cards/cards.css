@@ -1,9 +1,6 @@
 .cards {
   margin: 0 auto;
   max-width: 920px;
-  /* display: flex;
-  flex-wrap: wrap;
-  column-gap: 100px; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   column-gap: 100px;

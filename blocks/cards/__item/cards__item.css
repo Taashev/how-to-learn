@@ -2,3 +2,9 @@
   padding-top: 60px;
   text-align: center;
 }
+
+@media (max-width: 767px) {
+  .cards__item {
+    padding-top: 45px;
+  }
+}
