@@ -124,16 +124,10 @@
 @import url(../blocks/table/_theme/table_theme_dark.css);
 /* __cell */
 @import url(../blocks/table/__cell/table__cell.css);
-/* __cell_theme_dark */
-@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 /* __heading */
 @import url(../blocks/table/__heading/table__heading.css);
-/* __heading_theme_dark */
-@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 /* __text */
 @import url(../blocks/table/__text/table__text.css);
-/* __text_theme_dark */
-@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
 
 /* khan =============================================== */
@@ -162,6 +156,8 @@
 @import url(../blocks/kaufman/kaufman.css);
 /* __triangle */
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+/* __subtitle */
+@import url(../blocks/kaufman/__subtitle/kaufman__subtitle.css);
 
 
 /* resources */

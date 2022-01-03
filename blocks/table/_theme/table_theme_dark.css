@@ -1,4 +1,13 @@
 .table_theme_dark {
   position: relative;
   z-index: 1;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  row-gap: 80px;
+  color: #fff;
+}
+
+@media (max-width: 424px) {
+  .table_theme_dark {
+    gap: 50px;
+  }
 }
