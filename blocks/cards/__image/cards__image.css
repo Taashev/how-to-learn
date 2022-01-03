@@ -5,7 +5,7 @@
   border-radius: 50%;
 }
 
-@media (max-width: 424px) {
+@media (max-width: 767px) {
   .cards__image {
     margin-bottom: 30px;
   }

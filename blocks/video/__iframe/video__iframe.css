@@ -3,3 +3,17 @@
   width: 515px;
   height: 316px;
 }
+
+@media (max-width: 767px) {
+  .video__iframe {
+    width: 450px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 424px) {
+  .video__iframe {
+    width: 300px;
+    height: 200px;
+  }
+}

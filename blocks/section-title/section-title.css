@@ -1,4 +1,5 @@
 .section-title {
+  padding: 0 10px;
   max-width: 768px;
   margin: 0 auto 20px;
   text-align: center;
@@ -9,6 +10,6 @@
 
 @media (max-width: 767px) {
   .section-title {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
