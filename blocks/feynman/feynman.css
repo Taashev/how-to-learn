@@ -2,6 +2,61 @@
   box-sizing: border-box;
   min-height: 890px;
   padding-top: 100px;
-  background: #f2f2f2 url(../../images/feynman.png) no-repeat left bottom/867px 637px;
   position: relative;
+}
+
+.feynman:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2 url(../../images/feynman.png) no-repeat -50px bottom/867px auto;
+  z-index: -1;
+  transform: scale(-1, 1);
+}
+
+@media (max-width: 1279px) {
+  .feynman {
+    min-height: 800px;
+  }
+  .feynman:before {
+    background-size: 750px auto;
+    background-position: -70px bottom;
+  }
+}
+
+@media (max-width: 1023px) {
+  .feynman {
+    min-height: 730px;
+  }
+
+  .feynman:before {
+    background-size: 700px auto;
+    background-position: -120px bottom;
+  }
+}
+
+@media (max-width: 767px) {
+  .feynman {
+    padding-top: 60px;
+    min-height: 600px;
+  }
+
+  .feynman:before {
+    background-size: 580px auto;
+    background-position: -140px bottom;
+  }
+}
+
+@media (max-width: 424px) {
+  .feynman {
+    min-height: 530px;
+  }
+
+  .feynman:before {
+    background-size: 480px auto;
+    background-position: -140px bottom;
+  }
 }

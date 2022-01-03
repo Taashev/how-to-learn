@@ -1,8 +1,30 @@
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
   margin: 0 auto 70px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 700;
+  /* grid-row: 1/2;
+  grid-column: 2/3; */
+}
+
+@media (max-width: 1023px) {
+  .feynman__title {
+    margin-bottom: 36px;
+    font-size: 102px;
+  }
+}
+
+@media (max-width: 767px) {
+  .feynman__title {
+    margin-bottom: 25px;
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 424px) {
+  .feynman__title {
+    font-size: 55px;
+  }
 }
