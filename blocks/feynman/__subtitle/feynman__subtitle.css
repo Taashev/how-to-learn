@@ -2,12 +2,9 @@
   margin: 0 auto;
   max-width: 400px;
   text-align: center;
-  line-height: 51px;
+  line-height: 1.4;
   font-size: 36px;
-  font-weight: 400;
-  /* grid-row: 2/3;
-  grid-column: 2/3; */
-}
+  font-weight: 400;}
 
 @media(max-width: 1023px) {
   .feynman__subtitle {

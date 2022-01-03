@@ -4,3 +4,17 @@
   font-size: 60px;
   font-weight: 700;
 }
+
+@media (max-width: 767px) {
+  .khan__title {
+    margin-bottom: 30px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 424px) {
+  .khan__title {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+}

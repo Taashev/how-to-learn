@@ -6,3 +6,9 @@
   font-size: 24px;
   font-weight: 700;
 }
+
+@media (max-width: 424px) {
+  .khan__quote-author {
+    margin-top: 24px;
+  }
+}
