@@ -1,0 +1,9 @@
+.digits__subtitle {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 424px) {
+  .digits__subtitle {
+    margin-bottom: 40px;
+  }
+}

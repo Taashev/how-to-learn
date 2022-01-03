@@ -114,6 +114,8 @@
 
 /* digits =========================================== */
 @import url(../blocks/digits/digits.css);
+/* __subtitle */
+@import url(../blocks/digits/__subtitle/digits__subtitle.css);
 
 
 /* table ============================================ */
