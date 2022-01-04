@@ -136,8 +136,6 @@
 
 /* khan =============================================== */
 @import url(../blocks/khan/khan.css);
-/* __container */
-@import url(../blocks/khan/__container/khan__container.css);
 /* __author */
 @import url(../blocks/khan/__author/khan__author.css);
 /* __title */

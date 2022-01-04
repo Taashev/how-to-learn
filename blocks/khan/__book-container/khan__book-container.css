@@ -1,7 +1,15 @@
 .khan__book-container {
+  max-width: 765px;
   font-size: 0;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 48px;
+  justify-content: space-between;
   row-gap: 15px;
+}
+
+@media (max-width: 767px) {
+  .khan__book-container {
+    max-width: 500px;
+    flex-direction: column;
+  }
 }

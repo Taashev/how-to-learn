@@ -1,5 +1,5 @@
 .khan__book-pic {
-  width: 500px;
+  width: 470px;
   height: auto;
   object-fit: cover;
   object-position: center;
@@ -10,6 +10,7 @@
     width: auto;
     height: auto;
     max-width: 100%;
-    max-height: 600px;
+    max-height: auto;
+    order: 2;
   }
 }
