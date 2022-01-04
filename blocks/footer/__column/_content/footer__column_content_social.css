@@ -1,2 +1,8 @@
 .footer__column_content_social {
 }
+
+@media (max-width: 767px) {
+  .footer__column_content_social {
+    order: 2;
+  }
+}

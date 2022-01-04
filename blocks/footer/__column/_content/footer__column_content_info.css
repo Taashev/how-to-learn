@@ -1,3 +1,9 @@
 .footer__column_content_info {
   flex-grow: 1;
 }
+
+@media (max-width: 767px) {
+  .footer__column_content_info {
+    order: 1;
+  }
+}

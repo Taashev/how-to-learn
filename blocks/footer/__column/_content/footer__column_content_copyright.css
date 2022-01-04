@@ -4,3 +4,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width: 767px) {
+  .footer__column_content_copyright {
+    order: 3;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+  }
+}
