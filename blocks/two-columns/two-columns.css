@@ -1,6 +1,7 @@
 /* блок с контентом */
 .two-columns {
-  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -8,7 +9,6 @@
 
 @media (max-width: 767px) {
   .two-columns {
-    width: 90%;
     flex-direction: column;
     align-items: start;
   }

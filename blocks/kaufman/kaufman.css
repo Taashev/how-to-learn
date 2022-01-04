@@ -1,6 +1,6 @@
 .kaufman {
   box-sizing: border-box;
-  padding: 90px 0;
+  padding: 90px 40px;
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
@@ -8,6 +8,6 @@
 
 @media (max-width: 767px) {
   .kaufman {
-    padding: 60px 0;
+    padding: 60px 20px;
   }
 }

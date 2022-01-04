@@ -22,6 +22,8 @@
 
 /* header =========================================== */
 @import url(../blocks/header/header.css);
+/* __anchor */
+@import url(../blocks/header/__anchor/header__anchor.css);
 /* __title */
 @import url(../blocks/header/__title/header__title.css);
 /* __subtitle */
@@ -80,6 +82,8 @@
 
 /* techniques ======================================= */
 @import url(../blocks/techniques/techniques.css);
+/* __anchor */
+@import url(../blocks/techniques/__anchor/techniques__anchor.css);
 
 
 /* cards ============================================ */
@@ -136,6 +140,8 @@
 
 /* khan =============================================== */
 @import url(../blocks/khan/khan.css);
+/* __container */
+@import url(../blocks/khan/__container/khan__container.css);
 /* __author */
 @import url(../blocks/khan/__author/khan__author.css);
 /* __title */

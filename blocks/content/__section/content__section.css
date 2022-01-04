@@ -1,9 +1,11 @@
 .content__section {
   margin: 0 auto 100px;
+  padding: 0 40px;
 }
 
 @media (max-width: 767px) {
   .content__section {
     margin-bottom: 60px;
+    padding: 0 20px;
   }
 }
