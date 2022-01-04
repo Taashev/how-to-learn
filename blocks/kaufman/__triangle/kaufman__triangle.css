@@ -7,3 +7,19 @@
   right: -210px;
   z-index: 0;
 }
+
+@media (max-width: 767px) {
+  .kaufman__triangle {
+    width: 650px;
+    height: 650px;
+    right: -150px;
+  }
+}
+
+@media (max-width: 424px) {
+  .kaufman__triangle {
+    width: 550px;
+    height: 550px;
+    right: -150px;
+  }
+}

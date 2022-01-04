@@ -5,3 +5,9 @@
   position: relative;
   overflow: hidden;
 }
+
+@media (max-width: 767px) {
+  .kaufman {
+    padding: 60px 0;
+  }
+}

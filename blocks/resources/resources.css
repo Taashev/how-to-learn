@@ -1,3 +1,9 @@
 .resources {
   padding: 100px 0 217px;
 }
+
+@media (max-width: 767px) {
+  .resources {
+    padding: 60px 0 120px;
+  }
+}

@@ -1,8 +1,26 @@
 .resources__logo-zone {
-  margin: 80px auto 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 80px 20px 0;
   max-width: 1100px;
   list-style: none;
-  display: flex;
-  justify-content: space-between;
+  font-size: 0;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  justify-content: center;
+  gap: 40px 20px;
+}
+
+@media (max-width: 1023px) {
+  .resources__logo-zone {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .resources__logo-zone {
+    grid-template-columns: repeat(1, minmax(100px, 200px));
+    padding-top: 40px;
+  }
 }
