@@ -11,3 +11,9 @@
     padding: 40px 20px 15px;
   }
 }
+
+@media (max-width: 424px) {
+  .footer {
+    padding: 40px 10px 15px;
+  }
+}

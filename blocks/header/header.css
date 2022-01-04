@@ -16,13 +16,19 @@
 @media (max-width: 1023px) {
   .header {
     max-height: 650px;
-    padding: 20px 35px;
+    padding: 30px 35px;
   }
 }
 
 @media (max-width: 767px) {
   .header {
     max-height: 500px;
-    padding: 15px 20px;
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 424px) {
+  .header {
+    padding: 15px 10px;
   }
 }
