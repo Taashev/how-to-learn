@@ -6,12 +6,13 @@
 @import url(../vendor/normalize.css);
 
 
-/* rotation (анимация вращения ) ==================== */
+/** Функционал ======================================= */
+/* rotation (анимация вращения ) */
 @import url(../blocks/rotation/rotation.css);
-
-
 /* link (дефолтное свойства и состояние ховер для ссылок ) */
 @import url(../blocks/link/link.css);
+/* anchor (якорь) */
+@import url(../blocks/anchor/anchor.css);
 
 
 /* page ============================================= */
@@ -22,8 +23,6 @@
 
 /* header =========================================== */
 @import url(../blocks/header/header.css);
-/* __anchor */
-@import url(../blocks/header/__anchor/header__anchor.css);
 /* __title */
 @import url(../blocks/header/__title/header__title.css);
 /* __subtitle */
@@ -82,8 +81,6 @@
 
 /* techniques ======================================= */
 @import url(../blocks/techniques/techniques.css);
-/* __anchor */
-@import url(../blocks/techniques/__anchor/techniques__anchor.css);
 
 
 /* cards ============================================ */
