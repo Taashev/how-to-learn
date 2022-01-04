@@ -26,6 +26,7 @@
 * В футере готового проекта вы так же можете скачать Бриф.pdf и изоброжения с проекта
 
 [Бриф 1](https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf "Первая часть Брифа")
+
 [Бриф 2](https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf "Вторая часть Брифа")
 
 [Проект](https://taashev.github.io/how-to-learn "Посмотреть говотоый проект")
