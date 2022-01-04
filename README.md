@@ -21,4 +21,5 @@
 10. Flex-box
 11. Адаптивность (@media)
 
-[Посмотреть_проект] (https://taashev.github.io/how-to-learn/ "Посмотреть готовый проект")
+[Проект] (https://taashev.github.io/how-to-learn)
+[Яндекс] (https://yandex.ru/)
