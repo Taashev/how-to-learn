@@ -9,7 +9,7 @@
 
 @media (max-width: 767px) {
   .khan__book-container {
-    max-width: 500px;
+    max-width: 470px;
     flex-direction: column;
   }
 }
