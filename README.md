@@ -22,4 +22,6 @@
 11. Адаптивность (@media)
 -------------------------------------------------------------
 
+[Бриф](https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf "Макет проекта в виде Брифа")
+
 [Проект](https://taashev.github.io/how-to-learn "Посмотреть говотоый проект")
