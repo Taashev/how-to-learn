@@ -22,4 +22,3 @@
 11. Адаптивность (@media)
 
 [Проект] (https://taashev.github.io/how-to-learn)
-[https://yandex.ru/]
