@@ -1,17 +1,6 @@
 .footer__column_content_copyright {
+  flex-grow: 4;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-@media (max-width: 767px) {
-  .footer__column_content_copyright {
-    grid-row: 2/3;
-  }
-}
-
-@media (max-width: 767px) {
-  .footer__column_content_copyright {
-    grid-row: 3/4;
-  }
 }

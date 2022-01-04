@@ -2,12 +2,12 @@
   box-sizing: border-box;
   display: flex;
   min-height: 350px;
-  padding: 60px 60px 40px;
+  padding: 60px 40px 40px;
   background: #1f1f1f;
 }
 
 @media (max-width: 767px) {
   .footer {
-    padding: 40px 20px;
+    padding: 40px 10px 0;
   }
 }

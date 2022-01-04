@@ -1,25 +1,14 @@
 .footer__columns {
   width: 100%;
   margin: 0 auto;
-  /* display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; */
-  display: grid;
-  grid-template-columns: minmax(max-content, 720px) auto auto;
+  display: flex;
   justify-content: space-between;
   gap: 50px;
 }
 
 @media (max-width: 767px) {
   .footer__columns {
-    grid-template-columns: repeat(2, max-content);
-    gap: 30px;
-  }
-}
-
-@media (max-width: 767px) {
-  .footer__columns {
-    grid-template-columns: repeat(1, max-content);
-    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
   }
 }
